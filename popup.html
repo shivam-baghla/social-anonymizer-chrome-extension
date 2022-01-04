@@ -8,10 +8,12 @@
     <title>Social Media Anonymizer</title>
     <style>
         body{
-            width: max-content;
+            width: 300px;
             font-family: 'Trebuchet MS', sans-serif;
             text-align: center;
             color: #006f9b;
+            border: 2px dashed #006f9b;
+            border-radius: 10px;
         }
         button {
             background-color: #006f9b;
@@ -41,23 +43,38 @@
         .hidden {
             display: none;
         }
-        div{
+        div#sign{
             margin:14px;
+            font-size: 12px;
         }
         a{
             color: #006f9b;
             font-weight: bold;
         }
+        img{
+            width: 32px;
+            margin: 0px 10px;
+        }
+        div#socials{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
     </style>
-    <script src="./script.js"></script>
+    <script src="./js/script.js"></script>
 </head>
 
 <body>
-    <h3>Social Media Anonymizer</h3>
-    <button id="start"></button>
-    <button id="stop"></button>
+    <h2>Social Media Anonymizer</h2>
+    <div id="socials">
+        <img src="./icons/svg/fb.svg" />
+        <img src="./icons/svg/WA.svg" />
+        <img src="./icons/svg/LI.svg" />
+    </div>
+    <button id="start">Anonymize..!</button>
+    <button id="stop">Stop</button>
     <br />
-    <div>Brought to you by: <a href="https://www.linkedin.com/in/shivam-baghla/" target="_blank">Shivam Baghla</a></div>
+    <div id="sign">Brought to you by: <a href="https://www.linkedin.com/in/shivam-baghla/" target="_blank">Shivam Baghla</a></div>
 </body>
 
 </html>
