@@ -1,8 +1,8 @@
 {
     "manifest_version" : 2,
     "name" : "Social Media Anonymizer",
-    "version" : "1.0",
-    "description" : "Anonymize social media websites while sharing your screen.",
+    "version" : "0.0.1",
+    "description" : "Anonymize social media websites while sharing your screen. It's just play inside browser, nothing to do with social media profiles.",
     "icons" : {
         "128" : "./icons/icon_128.png"
     },
