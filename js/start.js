@@ -33,6 +33,5 @@ if(checkWebsites(location.href)) {
         document.querySelectorAll('span[dir="auto"]').forEach(elem => elem.innerText = '- - a n o n y m o u s - -');
         document.querySelectorAll('span.feed-shared-actor__title').forEach(elem => elem.innerText = '- - a n o n y m o u s - -');
         document.querySelectorAll('div.msg-overlay-list-bubble__convo-card-content-wrapper').forEach(elem => elem.innerText = '- - a n o n y m o u s - -');
-        
     }, 1000)
 }
